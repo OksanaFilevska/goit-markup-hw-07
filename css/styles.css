@@ -68,14 +68,14 @@ img {
   letter-spacing: 0.03em;
   display: inline-block;
 }
-.logo-f {
+.logo__theme-light {
   color: var(--secondary-title-text-colour);
   font-weight: bold;
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
 }
-.logo-web {
+.logo__accent-text {
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-colour);
@@ -102,22 +102,16 @@ img {
   display: flex;
   align-items: center;
 }
-.navigation-list {
-  display: flex;
-  align-items: center;
-}
-.navigation-item:not(:last-child) {
-  margin-right: 50px;
-}
-.navigation-list {
+.navigation_list {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
-.navigation-item:not(:last-child) {
+.navigation_item:not(:last-child) {
   margin-right: 50px;
 }
-.navigation-link {
+
+.navigation_link {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
@@ -128,7 +122,7 @@ img {
   padding-bottom: 32px;
   display: inline-block;
 }
-.navigation-link1 {
+.navigation_link1 {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
@@ -140,37 +134,37 @@ img {
   display: inline-block;
   transition: color 250ms var(--timing-function);
 }
-.navigation-link1:hover,
-.navigation-link1:focus,
-.navigation-link1:active {
+.navigation_link1:hover,
+.navigation_link1:focus,
+.navigation_link1:active {
   color: var(--accent-colour);
 }
-.navigation-link:hover,
-.navigation-link:focus,
-.navigation-link:active {
+.navigation_link:hover,
+.navigation_link:focus,
+.navigation_link:active {
   color: var(--accent-colour);
 }
 .current {
   color: var(--accent-colour);
 }
-.navigation-link {
+.navigation_link {
   display: flex;
   align-items: center;
   fill: currentcolor;
   transition: color 250ms var(--timing-function);
 }
 
-.navigation-icon {
+.navigation_icon {
   margin-right: 10px;
   transition: fill 250ms var(--timing-function);
 }
-.navigation-link:hover .navigation-icon,
-.navigation-link:focus .navigation-icon
+.navigation_link:hover .navigation_icon,
+.navigation_link:focus .navigation_icon
  {
   fill: var(--accent-colour);
 }
 
-.navigation-item {
+.navigation_item {
   position: relative;
 }
 
