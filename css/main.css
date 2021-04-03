@@ -667,7 +667,7 @@ img {
   font-size: 12px;
   line-height: 1.166;
   letter-spacing: 0.01em;
-  color: var(--primary-text-color);
+  color: var(--primary-text-colour);
   margin-bottom: 4px;
 }
 
@@ -677,7 +677,7 @@ img {
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-color);
+  color: var(--secondary-title-text-colour);
   margin-top: 0;
   margin-bottom: 12px;
 }
@@ -698,7 +698,7 @@ img {
 }
 .form-wrapper__input:focus {
   outline: none;
-  border-color: var(--accent-color);
+  border-color: var(--accent-colour);
 }
 .form-wrapper__icon {
   position: absolute;
@@ -710,7 +710,7 @@ img {
   transition: fill 250ms var(--timing-function);
 }
 .form-wrapper__input:focus + .form-wrapper__icon {
-  fill: var(--accent-color);
+  fill: var(--accent-colour);
 }
 
 .modal-form__message {
@@ -728,7 +728,7 @@ img {
 }
 .modal-form__message:focus {
   outline: none;
-  border-color: var(--accent-color);
+  border-color: var(--accent-colour);
 }
 
 .modal-form__check-desc {
@@ -737,7 +737,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: var(--primary-text-colour);
   align-items: center;
 }
 .modal-form__check-desc::before {
@@ -755,11 +755,11 @@ img {
   background-image: url("../images/icon-check.svg");
   background-position: center;
   border-color: transparent;
-  background-color: var(--accent-color);
+  background-color: var(--accent-colour);
   background-repeat: no-repeat;
 }
 .modal-form__term:focus + .modal-form__check-desc::before {
-  border: 2px solid var(--accent-color);
+  border: 2px solid var(--accent-colour);
   border-radius: 2px;
   transition: 250ms var(--timing-function);
 }
@@ -769,7 +769,7 @@ img {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: var(--accent-colour);
 }
 
 .form__button {

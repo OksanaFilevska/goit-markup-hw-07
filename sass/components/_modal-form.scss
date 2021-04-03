@@ -7,7 +7,7 @@
       font-size: 12px;
       line-height: 1.166;
       letter-spacing: 0.01em;
-      color: var(--primary-text-color);
+      color: var(--primary-text-colour);
       margin-bottom: 4px;
     }
   }
@@ -17,7 +17,7 @@
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-color);
+    color: var(--secondary-title-text-colour);
     margin-top: 0;
     margin-bottom: 12px;
   }
@@ -35,7 +35,7 @@
       transition: border-color 250ms var(--timing-function);
       &:focus {
         outline: none;
-        border-color: var(--accent-color);
+        border-color: var(--accent-colour);
       }
     }
     &__icon {
@@ -47,7 +47,7 @@
       fill: var(--title-color);
       transition: fill 250ms var(--timing-function);
       .form-wrapper__input:focus + & {
-        fill: var(--accent-color);
+        fill: var(--accent-colour);
       }
     }
   }
@@ -65,7 +65,7 @@
     }
     &:focus {
       outline: none;
-      border-color: var(--accent-color);
+      border-color: var(--accent-colour);
     }
   }
   .modal-form__check-desc {
@@ -74,7 +74,7 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
+    color: var(--primary-text-colour);
     align-items: center;
     &::before {
       display: block;
@@ -90,11 +90,11 @@
         background-image: url("../images/icon-check.svg");
         background-position: center;
         border-color: transparent;
-        background-color: var(--accent-color);
+        background-color: var(--accent-colour);
         background-repeat: no-repeat;
       }
       .modal-form__term:focus + & {
-        border: 2px solid var(--accent-color);
+        border: 2px solid var(--accent-colour);
         border-radius: 2px;
         transition: 250ms var(--timing-function);
       }
@@ -105,7 +105,7 @@
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    color: var(--accent-color);
+    color: var(--accent-colour);
   }
   .form__button {
     align-self: center;
