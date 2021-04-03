@@ -564,6 +564,9 @@ color: var(--primary-bg-colour);
   padding: 10px 28px;
   justify-content: center;
 }
+.button__icon {
+  margin-left: 10px;
+}
 /*   END FOOTER   */
 /*   GALLERY  */
 
@@ -673,9 +676,7 @@ color: var(--primary-bg-colour);
   transform: translateY(0);
 }
 
-.button__icon {
-  margin-left: 10px;
-}
+
 
 
 /*  END GALLERY    */
