@@ -24,8 +24,8 @@
     fill: #afb1b8;
     transition: fill 250ms var(--timing-function), border-color 250ms var(--timing-function);
 
-  &__link:hover,
-  &s__link:focus {
+  &:hover,
+  &:focus {
     fill: var(--accent-colour);
     border-color: var(--accent-colour);
         }

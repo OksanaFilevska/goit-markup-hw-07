@@ -84,8 +84,8 @@
     background-color: var(--footer-1);
 
   
-  &__link:hover,
-  &__link:focus {
+  &:hover,
+  &:focus {
     background-color: var(--accent-colour);
   }
 }
@@ -126,7 +126,7 @@
     background: var(--secondary-bg-colour);
     color: rgba(255, 255, 255, 0.6);
  
-  &__email::placeholder {
+  &::placeholder {
     color: rgba(255, 255, 255, 0.6);
   }
 }

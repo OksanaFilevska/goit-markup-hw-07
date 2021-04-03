@@ -446,7 +446,7 @@ img {
   fill: #afb1b8;
   transition: fill 250ms var(--timing-function), border-color 250ms var(--timing-function);
 }
-.clients__link__link:hover, .clients__links__link:focus {
+.clients__link:hover, .clients__link:focus {
   fill: var(--accent-colour);
   border-color: var(--accent-colour);
 }
@@ -544,7 +544,7 @@ img {
   fill: var(--primary-bg-colour);
   background-color: var(--footer-1);
 }
-.footer-social__link__link:hover, .footer-social__link__link:focus {
+.footer-social__link:hover, .footer-social__link:focus {
   background-color: var(--accent-colour);
 }
 
@@ -585,7 +585,7 @@ img {
   background: var(--secondary-bg-colour);
   color: rgba(255, 255, 255, 0.6);
 }
-.subscription__email__email::placeholder {
+.subscription__email::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -696,11 +696,12 @@ img {
   padding-right: 12px;
   transition: border-color 250ms var(--timing-function);
 }
-.form-wrapper__icon:focus {
+.form-wrapper__input:focus {
   outline: none;
   border-color: var(--accent-colour);
 }
-.form-wrapper__icon {
+
+form-wrapper__icon {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -709,7 +710,7 @@ img {
   fill: var(--secondary-title-text-colour);
   transition: fill 250ms var(--timing-function);
 }
-.form-wrapper__input:focus + .form-wrapper__icon {
+.form-wrapper__input:focus + form-wrapper__icon {
   fill: var(--accent-colour);
 }
 
@@ -723,10 +724,10 @@ img {
   margin-bottom: 20px;
   transition: border-color 250ms var(--timing-function);
 }
-.modal-form__message__message::placeholder {
+.modal-form__message::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-.modal-form__message__message:focus {
+.modal-form__message:focus {
   outline: none;
   border-color: var(--accent-colour);
 }
@@ -751,14 +752,14 @@ img {
   margin-right: 8px;
   transition: border 250ms var(--timing-function);
 }
-.modal-form__term:checked + .modal-form__check-desc::before::before {
+.modal-form__term:checked + .modal-form__check-desc::before {
   background-image: url("../images/icon-check.svg");
   background-position: center;
   border-color: transparent;
   background-color: var(--accent-colour);
   background-repeat: no-repeat;
 }
-.modal-form__term:focus + .modal-form__check-desc::before::before {
+.modal-form__term:focus + .modal-form__check-desc::before {
   border: 2px solid var(--accent-colour);
   border-radius: 2px;
   transition: 250ms var(--timing-function);
