@@ -746,9 +746,6 @@ color: var(--primary-bg-colour);
   fill: var(--accent-colour);
 }
 
-textarea {
-  resize: none;
-}
 
 .message {
   font-weight: 700;
