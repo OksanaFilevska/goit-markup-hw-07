@@ -888,7 +888,7 @@ textarea {
 }
 
 
-form__button {
+.form__button {
   align-self: center;
   display: inline-block;
   margin-top: 30px;
